@@ -25,9 +25,10 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@master
+        uses: Of3lia/acuamarcator@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_BRANCH: master
           BRANCH: gh-pages
           FOLDER: dist/spa
+
