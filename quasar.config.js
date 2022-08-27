@@ -10,9 +10,9 @@
 
 const { configure } = require('quasar/wrappers')
 
+
 module.exports = configure(function (/* ctx */) {
   return {
-  base:'https://of3lia.github.io/acuamarcator/',
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
     // preFetch: true,
 
@@ -56,7 +56,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '/acuamarcator/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
