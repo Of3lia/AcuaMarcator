@@ -12,7 +12,7 @@ const { configure } = require('quasar/wrappers')
 
 module.exports = configure(function (/* ctx */) {
   return {
-
+  base:'https://of3lia.github.io/acuamarcator/',
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
     // preFetch: true,
 
@@ -50,7 +50,7 @@ module.exports = configure(function (/* ctx */) {
       },
 
       vueRouterMode: 'hash', // available values: 'hash', 'history'
-      vueRouterBase:'https://of3lia.github.io/acuamarcator/',
+      // vueRouterBase:'https://of3lia.github.io/acuamarcator/',
       // vueDevtools,
       // vueOptionsAPI: false,
 
