@@ -56,7 +56,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: '/acuamarcator/',
+      publicPath: '/AcuaMarcator/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
