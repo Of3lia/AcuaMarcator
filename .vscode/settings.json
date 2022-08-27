@@ -15,5 +15,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
-  }
+  },
+  "appService.defaultWebAppToDeploy": "/subscriptions/a8f4c6f0-1814-4fba-a308-61fe692f546f/microsoft.web/sites/subscriptions/a8f4c6f0-1814-4fba-a308-61fe692f546f/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/AcuaMarcator",
+  "appService.deploySubpath": "dist"
 }
